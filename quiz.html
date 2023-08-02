@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="start">
+        <button>Start Quiz</button>
+    </div>
+
+    <div class="info_box">
+        <div class="info_title">
+            <span>Rules Of The Quiz</span>
+        </div>
+
+        <div class="info_list">
+            <div class="info"><b>1-</b>You will only have <span>15 seconds</span> for each question.</div>
+            <div class="info"><b>2-</b>The option should be selected only once.</div>
+            <div class="info"><b>3-</b>You should select option before time goes off.</div>
+            <div class="info"><b>4-</b>You can't quit the quiz,once it started.</div>
+            <div class="info"><b>5-</b>You will get points after you select correct option.</div>
+
+        </div>
+
+
+    <div class="buttons">
+        <button class="quit">Exit</button>
+        <button class="restart">Continue</button>
+
+    </div>
+</div>
+
+<!--Quiz Box -->
+<div class="quiz_box">
+    <header>
+        <div class="title">Quiz Application</div>
+        <div class="timer">
+            <div class="timer-text">Time Left</div>
+            <div class="timer-sec">15</div>
+        </div>
+        <div class="time_line"></div>
+    </header>
+    <section>
+        <div class="que_text"><span>Which of the following lie in the Tetra hertz frequency?</span></div>
+        <div class="option_list">
+            <div class="option">
+                <span>Visible Light and Infra Red</span>
+                <div class="icon cross"><i class="fas fa-check"></i></div>
+            </div>
+
+            <div class="option">
+                <span> Infra Red and Microwaves</span>
+                <div class="icon tick"><i class="fas fa-check"></i></div>
+            </div>
+
+            <div class="option">
+                <span>Microwaves and Radio Waves</span>
+                <div class="icon cross"><i class="fas fa-check"></i></div>
+            </div>
+
+            <div class="option">
+                <span>Visible Light and Ultraviolet light</span>
+                <div class="icon cross"><i class="fas fa-check"></i></div>
+            </div>
+
+        </div>
+    </section>
+    <!--Footer-->
+    <footer>
+        <div class="total_que">
+           <!-- <span><p>2</p>of<p>5</p>Questions</span>-->
+        </div>
+        <button class="next_btn">
+            Next Question
+        </button>
+    </footer>
+</div>
+
+<!--Result Box-->
+<div class="result_box">
+    <div class="icon"><i class="fas fa-crown"></i></div>
+    <div class="complete-text">Hurrah!The Quiz has been done.</div>
+    <div class="score-text">
+        <!--<span>You got <p>2</p>out of<p>5</p></span>-->
+    </div>
+    <div class="buttons">
+        <button class="restart">Replay Quiz</button>
+        <button class="quit">Quit Quiz</button>
+    </div>
+
+</div>
+
+<script src="quiz.js"></script>
+
+<script src="questions.js"></script>
+
+    
+</body>
+</html>
